@@ -23,3 +23,4 @@ CodeShare Buddy is not just an app; it's your digital ally for effortless text a
    - With the right password, you can securely store shared code snippets within CodeShare Buddy. Keep your personal stash for future reference, ensuring only authorized users have access.
 
 CodeShare Buddy is not just a tool; it's your partner in code collaboration. Experience the ease of sharing information while maintaining control. Join the CodeShare Buddy community and simplify your collaborative efforts today! 🚀👥🔒
+ACCESS THE WEBAPP :https://kushal1o1.pythonanywhere.com/
