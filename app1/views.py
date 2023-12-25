@@ -1,7 +1,7 @@
 from django.shortcuts import render ,redirect
 from django.http import HttpResponseForbidden
 from .models import Code
-PASSWORD = "101"
+PASSWORD = "STH"
 def home(request):
     if request.method == 'POST':
         # Check if the password is provided in the form
