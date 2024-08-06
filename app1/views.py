@@ -4,10 +4,10 @@ from .models import Code
 PASSWORD = "STH"
 def home(request):
     if request.method == 'POST':
-        # Check if the password is provided in the form
+        
         password = request.POST.get('password', '')
         if password == PASSWORD:
-            # Password is correct, proceed to save the text
+           
             name = request.POST.get('name', '')
             if name=='':
              name="Unknown"
@@ -15,7 +15,7 @@ def home(request):
             if text:
               Code.objects.create(code=text, name=name)
 
-            # Check if the number of objects exceeds the limit (e.g., 10)
+        
             if Code.objects.count() > 10:
                 # Delete the oldest object (the first created)
                 oldest_code = Code.objects.first()
